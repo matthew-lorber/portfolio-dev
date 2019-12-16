@@ -5,7 +5,6 @@ html {
     text-size-adjust: 100%;
 }
 
-
 body {
     background: lightblue;
     margin: 0;
@@ -17,28 +16,76 @@ canvas {
     height: 98vh;
 }
 
+.noDisplay {
+    display: none;
+}
+
+button {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+}
+
+/* NavBars */
+#navbarB {
+    position: fixed;
+    bottom: 1rem;
+    width: 100vw;
+    text-align: center;
+}
+
+#navbarL {
+    position: fixed;
+    top: 50vh;
+    left: 0;
+    transform: rotate(90deg);
+}
+
+#navbarR {
+    position: fixed;
+    top: 50vh;
+    right: 0;
+    transform: rotate(-90deg);
+}
+
+/* About Section */
+#about {
+    height: 100vh;
+    width: 100vw;
+}
+
+#grad1 {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
 #logo {
     width: 100vw;
     position: fixed;
     top: 30px;
     text-align: center;
+    opacity: 0.8;
 }
 
 #hello {
     width: 100vw;
     position: fixed;
-    top: 50vh;
+    top: 42vh;
     margin: auto;
     font-size: 3rem;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    opacity: 0.8;
 }
 
 /* Section */
-section {
-    padding: 5rem 1.5rem;
-}
 
 /* Rows / Columns */
 .column {
