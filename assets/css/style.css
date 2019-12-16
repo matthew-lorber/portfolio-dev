@@ -1,24 +1,50 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+html {
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+
 body {
     background: lightblue;
     margin: 0;
 }
 
+canvas {
+    position: fixed;
+    top: 0;
+    height: 98vh;
+}
+
 #logo {
     width: 100vw;
-    position: absolute;
-    top: 5vh;
+    position: fixed;
+    top: 30px;
     text-align: center;
-    margin: auto;
 }
+
 #hello {
     width: 100vw;
-    position: absolute;
+    position: fixed;
     top: 50vh;
     margin: auto;
     font-size: 3rem;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+/* Section */
+section {
+    padding: 5rem 1.5rem;
+}
+
+/* Rows / Columns */
+.column {
+    margin: 0.75rem 0.75rem;
+}
+
+.column.centered {
+    justify-content: center;
 }
