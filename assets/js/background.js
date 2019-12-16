@@ -13,7 +13,7 @@ function init() {
 
   	var container,
         particle;
-    
+    // put a container here so can change backgrounds per navigations
     container = document.createElement( 'div' );
     document.body.insertBefore( container, document.body.firstChild );
 
