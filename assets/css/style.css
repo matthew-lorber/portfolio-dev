@@ -1,2 +1,24 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+body {
+    background: lightblue;
+    margin: 0;
+}
+
+#logo {
+    width: 100vw;
+    position: absolute;
+    top: 5vh;
+    text-align: center;
+    margin: auto;
+}
+#hello {
+    width: 100vw;
+    position: absolute;
+    top: 50vh;
+    margin: auto;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
