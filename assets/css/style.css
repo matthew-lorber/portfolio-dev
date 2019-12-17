@@ -1,5 +1,9 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+* {
+    box-sizing: border-box;
+}
+
 html {
     text-rendering: optimizeLegibility;
     text-size-adjust: 100%;
@@ -8,6 +12,7 @@ html {
 body {
     background: lightblue;
     margin: 0;
+    font-size: 14px;
 }
 
 canvas {
@@ -20,15 +25,37 @@ canvas {
     display: none;
 }
 
-button {
+.navButton {
     border: none;
     background: none;
+    outline: none;
     text-decoration: none;
     color: whitesmoke;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
-    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+}
+
+body:not(.tabbing) a:active, 
+body:not(.tabbing) a:focus {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.clearButton {
+    padding: 1em;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    background: none;
+    outline: none;
+    cursor: pointer;
 }
 
 /* NavBars */
@@ -54,12 +81,12 @@ button {
 }
 
 /* About Section */
-#about {
+.hi {
     height: 100vh;
     width: 100vw;
 }
 
-#grad1 {
+.grad {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
@@ -70,19 +97,26 @@ button {
     position: fixed;
     top: 30px;
     text-align: center;
-    opacity: 0.8;
 }
 
-#hello {
+#myLogo {
+    cursor: pointer;
+}
+
+.hello {
     width: 100vw;
     position: fixed;
     top: 42vh;
     margin: auto;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    opacity: 0.8;
+}
+
+.hello > p {
+    width: 80vw;
+    margin: auto;
 }
 
 /* Section */
@@ -94,4 +128,31 @@ button {
 
 .column.centered {
     justify-content: center;
+}
+
+/* Responsive Breakpoints */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 8px;
+    }
 }

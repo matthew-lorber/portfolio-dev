@@ -1,0 +1,105 @@
+.grid-container {
+    height: 75vh;
+    width: 60vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cell {
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+
+.cell-1 {
+    background: deepskyblue;
+}
+
+.cell-2 {
+    background: orangered;
+}
+
+.cell-3 {
+    background: royalblue;
+}
+
+.cell-4 {
+    background: gold;
+}
+
+.cell-5 {
+    background: blueviolet;
+}
+
+.cell-6 {
+    background: limegreen;
+}
+
+.cell-7 {
+    background: coral;
+}
+
+.cell-8 {
+    background: lightseagreen;
+}
+
+.cell-9 {
+    background: maroon;
+}
+
+label {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 200px;
+    height: 325px;
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    cursor: pointer;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+
+.card div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    text-align: center;
+    line-height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+.card .back {
+    background: #222;
+    color: #FFF;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+input {
+display: none;
+}
+
+:checked + .card {
+transform: rotateY(180deg);
+-webkit-transform: rotateY(180deg);
+}
