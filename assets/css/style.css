@@ -10,7 +10,8 @@ html {
 }
 
 body {
-    background: lightblue;
+    /* background: lightblue; */
+    background: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     margin: 0;
     font-size: 14px;
 }
@@ -58,38 +59,16 @@ body:not(.tabbing) a:focus {
     cursor: pointer;
 }
 
-/* NavBars */
 #navbarB {
     position: fixed;
-    bottom: 1rem;
+    bottom: 0.5rem;
     width: 100vw;
     text-align: center;
 }
-
-#navbarL {
-    position: fixed;
-    top: 50vh;
-    left: 0;
-    transform: rotate(90deg);
-}
-
-#navbarR {
-    position: fixed;
-    top: 50vh;
-    right: 0;
-    transform: rotate(-90deg);
-}
-
 /* About Section */
 .hi {
     height: 100vh;
     width: 100vw;
-}
-
-.grad {
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 
 #logo {
@@ -108,7 +87,7 @@ body:not(.tabbing) a:focus {
     position: fixed;
     top: 42vh;
     margin: auto;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -119,40 +98,4 @@ body:not(.tabbing) a:focus {
     margin: auto;
 }
 
-/* Section */
 
-/* Rows / Columns */
-.column {
-    margin: 0.75rem 0.75rem;
-}
-
-.column.centered {
-    justify-content: center;
-}
-
-/* Responsive Breakpoints */
-@media only screen and (min-width: 1200px) {
-
-}
-
-@media only screen and (min-width: 992px) {
-    
-}
-
-@media only screen and (min-width: 768px) {
-    body {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    body {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 8px;
-    }
-}
