@@ -1,9 +1,8 @@
 // Navigates between sections by adding/removing noDisplay class
-document.addEventListener("click", function() {
-    console.log(event.target.name);
-    this.querySelector("section").classList.add("noDisplay");
-    document.getElementById(event.target.name).classList.remove("noDisplay");
-});
+// document.addEventListener("click", function() {
+//     document.querySelector("section").classList.add("noDisplay");
+//     document.getElementById(event.target.name).classList.remove("noDisplay");
+// });
 
 // Identifies keyboard navigators
 window.addEventListener("keydown", (e)=>{
