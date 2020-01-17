@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My first three.js app</title>
+    <style>
+        body {
+            margin: 0;
+            width: 100vw;
+            height: 100vh
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%
+        }
+
+
+        html {
+            text-rendering: optimizeLegibility;
+            text-size-adjust: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.js"></script>
+    <script>
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+        var geometry = new THREE.SphereGeometry(5, 32, 32);
+        var edges = new THREE.EdgesGeometry(geometry);
+        var line = new THREE.LineSegments(edges, new THREE.LineBasicMaterial({ color: 0xffffff }));
+        scene.add(line);
+
+        camera.position.z = 15;
+        function animate() {
+            requestAnimationFrame(animate);
+            line.rotation.x += 0.005;
+            line.rotation.y += 0.005;
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        
+    </script>
+</body>
+
+</html>

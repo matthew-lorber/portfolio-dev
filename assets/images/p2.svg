@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="62.515mm" height="87.168mm" version="1.1" viewBox="0 0 62.515 87.168" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-41.06 -68.066)">
+  <g fill="none" stroke="#000" stroke-width=".59504">
+   <path d="m70.233 99.798-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+   <path d="m80.177 116.75-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+   <path d="m90.223 100.2-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+   <path d="m80.383 83.087-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+   <path d="m90.097 133.54-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+   <path d="m80.042 150-8.4739 4.8924-8.4739-4.8924v-9.7848l8.4739-4.8924 8.4739 4.8924z"/>
+  </g>
+  <g fill="#000000" font-family="sans-serif" letter-spacing="0px" word-spacing="0px">
+   <text x="50.725494" y="78.705406" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="50.725494" y="78.705406" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Contrails</tspan></text>
+   <text x="32.574654" y="116.11486" font-size="10.583px" stroke-width=".26458" style="line-height:1.25" xml:space="preserve"><tspan x="32.574654" y="125.47863" stroke-width=".26458"/></text>
+   <g font-size="2.1818px" stroke-width=".14876">
+    <text x="92.108673" y="95.463394" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="92.108673" y="95.463394" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">TouchBase</tspan></text>
+    <text x="41.042866" y="95.032471" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="41.042866" y="95.032471" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">VoiceBot</tspan></text>
+    <text x="51.600769" y="112.70081" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="51.600769" y="112.70081" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">VoiceBot</tspan></text>
+    <text x="60.865879" y="128.86086" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="60.865879" y="128.86086" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LIRI</tspan></text>
+    <text x="82.197166" y="145.66736" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="82.197166" y="145.66736" font-family="sans-serif" font-size="2.1818px" stroke-width=".14876" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">RoshamboChat</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>
